@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(222, 222, 222);
+}
+main{
+    background-color: white;
+    width: 50%;
+    margin: 5px auto;
+    padding: 30px;
+    box-shadow: 5px;
+    border-radius: 1%;
+}
+img{
+    border-radius: 150px;
+    width: 150px;
+    padding-left: 39%;
+    position: absolute;
+}
+.direitos{
+    padding-left: 25%;
+}

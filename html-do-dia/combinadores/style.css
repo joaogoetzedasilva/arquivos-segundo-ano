@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .filho-direto > p {
+    background-color: aqua;
+  }
+
+  .descendente p {
+    background-color: aqua;
+  }
+
+  .irmao-adjacente + p {
+    background-color: aqua;
+  }
+
+  .irmao-seguinte ~ ul {
+    background-color: aqua;
+  }
+  .seletor p, .seletor div{
+    border: 1px dashed #888
+  }

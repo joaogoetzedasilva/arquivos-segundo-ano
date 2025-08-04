@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    padding: 20px;
+  }
+  .aaaaa{
+    width: auto;
+    margin-left: 15%;
+    margin-right:15%;
+    /* border: 1px black solid; */
+  }
+  .linha::first-line{
+    color: yellow;
+}
+  .letra::first-letter{
+    font-size: 40px;
+    color:red;
+  }
+  .antes::before{
+    content:"feito com before";
+    color:red;
+  }
+  .depois::after{
+    content:"feito com after";
+    color:red;
+  }
+  .selecionar::selection{
+    background-color:red;
+  }

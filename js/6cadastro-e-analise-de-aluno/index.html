@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+
+<body>
+
+    <h1>Cadastro e analise de aluno</h1>
+
+    <button onclick="iniciarCadastro()">iniciar cadastro</button>
+
+    <div id="resultado"></div>
+
+
+    <script>
+        function iniciarCadastro() {
+
+            let qtd = parseInt(prompt("numero alunos"));
+
+            for (let i = 1; i <= qtd; i++) {
+
+                let nome = prompt("digite seu nome")
+                let nota1 = parseFloat(prompt("Digite a nota 1"));
+                let nota2 = parseFloat(prompt("Digite a nota 2"));
+                let soma = Math.floor(nota1 + nota2) / 2;
+
+                let resultado = document.getElementById("resultado");
+                let situacao;
+
+                if(soma >= 6){
+                    situacao="aprovado";
+                }
+                else{
+                    situacao="reprovado";
+                }
+
+
+
+                }
+
+            resultado.innerHTML += ` 
+            ${nome}
+            ${soma}
+            ${situacao}
+            
+            `;
+
+            }    
+            
+    </script>
+
+</body>
+
+</html>

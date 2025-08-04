@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Combinadores</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Combinadores</h1>
+  <div>
+
+    <div class="filho-direto">
+      <h3>1. Combinador de Filho Direto </h3>
+      <p>aaaaa</p>
+      <span>
+        <p>aaaaa</p>
+      </span>
+    </div>
+
+    <div class="descendente">
+      <h3>2. Combinador de Descendente (espaço)</h3>
+      <div>
+        <p>aaaaa</p>
+      </div>
+      <section>
+        <div>
+          <p>aaaaa</p>
+        </div>
+      </section>
+    </div>
+
+    <div>
+      <h3>3. Combinador de Irmão Adjacente (+)</h3>
+      <div class="irmao-adjacente">aaaaa</div>
+      <p>aaaaa</p>
+      <p>aaaaa</p>
+    </div>
+
+    <div>
+      <h3>4. Combinador de Irmãos Seguintes (~)</h3>
+      <p class="irmao-seguinte">aaaaa</p>
+      <ul>
+        <li>aaaaa</li>
+        <li>aaaaa</li>
+      </ul>
+    </div>
+
+    <div class="seletor">
+      <h3>5. Lista de Seletores (,)</h3>
+      <div>aaaaa</div>
+      <p>aaaaa</p>
+      <span>aaaaa</span>
+    </div>
+
+  </div>
+</body>
+</html>

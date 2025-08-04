@@ -1,0 +1,86 @@
+body{
+    font-family: arial;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+}
+main{
+    background-color: white;
+}
+table{
+    border: 0px transparent rgb(255, 255, 255);
+    width: 5%;  
+}
+td {
+    border: 0px transparent rgb(255, 255, 255);
+    padding: 13px;
+    text-align: center;
+    transition: transform 0.1s;
+}
+td:hover {
+    transform: scale(1.2);
+}
+.ladoalado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .tabela-mes{
+    border-collapse: collapse;
+    width: 22%;
+    margin: 10px;
+ } 
+
+ .laranja {
+    background-color: #FFA500;
+}
+
+.amarelo {
+    background-color: #FFFF00; 
+}
+
+.vermelho {
+    background-color: #FF0000; 
+}
+
+.cinza {
+    background-color: #808080; 
+}
+
+.verde-escuro {
+    background-color: #006400; 
+}
+
+.verde-claro {
+    background-color: #44f044;
+}
+
+.azul-claro {
+    background-color: #56b4d3; 
+}
+
+.roxo{
+    background-color: rgb(134, 0, 134);
+}
+.aqua{
+    background-color: #004d5b;
+}
+.vinho{
+    background-color: #9f104e;
+}
+.elemento{
+
+}
+.numero{
+    font-size: 0.8em;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    text-align: left;
+}
+.nome-elemento{
+
+}
+.numero-grande{
+
+}

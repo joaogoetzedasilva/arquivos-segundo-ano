@@ -1,0 +1,55 @@
+body{
+    font-family: arial;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+main{
+    background-color: white;
+
+}
+
+table{
+    border: 1px solid black;
+    width: 5%;  
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th{
+    background-color:rgb(7, 211, 211);
+}
+.feriados{
+    background-color: rgb(7, 211, 211);
+}
+.feriados:hover {
+    content: feriado de ;
+    background-color: lightblue;
+}
+.feriados-consecutiveis{
+    background-color: rgb(0, 193, 0);
+}
+.feriados-consecutiveis:hover {
+    background-color:lightgreen;
+}
+ .ladoalado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+
+ .tabela-mes{
+    border-collapse: collapse;
+    width: 22%;
+    margin: 10px;
+ }
+ .jeff{
+    background-image: url(jeff.jpg);
+    /* background-image: url(tubarao.jpg) ; */
+    background-size: cover;
+ } 
+
+
+
+

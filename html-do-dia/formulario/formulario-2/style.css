@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(117, 117, 117);
+    justify-items: center;
+    font: 1.2em arial;
+}
+div{
+    justify-items: center;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+}
+.formulario-div{
+    /* background-color: gray; */
+    width: 25%;
+    padding: 10px;
+}
+label, select{
+    width: 100px;
+    /* text-align: left; */
+    /* display: inline-block; */
+    color: #000000;
+    
+}
+input{
+    width: 450px ;
+    padding: 10px;
+}
+
+button{
+    color: #ffffff;
+    background-color: #0d8919;
+    border: 1px;
+    border-radius: 3px;
+    width: 500px;
+    padding: 10px;
+}

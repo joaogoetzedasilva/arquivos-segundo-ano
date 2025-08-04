@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>JS</title>
+</head>
+
+<body>
+
+    <label for="an">Ano de nascimento:</label>
+    <input type="text" id="an" name="an" placeholder="Digite sua data de nacimento:" required>
+    <label for="aa">a data atual:</label>
+    <input type="text" id="aa" name="aa" placeholder="Digite a data atual:" required>
+
+    <button onclick="verificar()">verificar</button>
+     <div id="resultado-final"></div>
+
+    <script>
+
+        function verificar() {
+            let an = document.getElementById("an").value;
+            let aa = document.getElementById("aa").value;
+
+            let categoria;
+
+            let idade = aa - an;
+
+            if (idade < 12) {
+                categoria="criança";
+            }
+            else if (idade >= 12 && idade <= 17) {
+                categoria="Adolecente";
+            }
+            else if (idade >= 18 && idade <= 59) {
+                categoria="Adulto";
+            }
+            else {
+                categoria="idoso";
+            }
+
+            let resultado-final = ineerText.Document.getElementById(resultado-final).value;
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

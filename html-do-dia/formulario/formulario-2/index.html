@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario simples</title>
+    </head>
+    <body>
+        <div>
+            <h1>Formulario de contato</h1>
+        <div class="formulario-div">
+        <form action="#" method="get">
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome:" required>
+             <br>
+             <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail:" required>
+             <br>
+             <br>
+            <label for="number">Telefone:</label>
+             <br>
+            <input style="width: 90%;" type="number" id="number" name="number" placeholder="Digite seu telefone:"  required>
+             <br>
+             <br>
+            <label for="cars">Assunto:</label>
+             <br>
+            <select style="width: 95%; padding: 10px;" name="cars" id="cars">
+                <option value="duvida">Duvida</option>
+                <option value="sugestão">Sugestão</option>
+                <option value="reclamação">Reclamação</option>
+            </select>
+             <br>
+             <br>
+            <label for="mensagem">Mensagem:</label>
+             <br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+             <br>
+             <br>
+            <label for="myfile">Anexar arquivo:</label>
+            <input type="file" id="myfile" name="myfile">
+             <br>
+             <br>
+            <label style="display: inline;" for="checkbox">Aceito os termos e condições</label>
+            <input style="width:20px; margin-left:100px;" type="checkbox" id="checkbox" name="checkbox">
+             <br>
+             <br>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+        </div>
+
+
+
+
+
+        <div>
+            <h1>Cadastro de usuario</h1>
+        <div class="formulario-div">
+        <form action="#" method="get">
+            <label for="name">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome:" required>
+             <br>
+             <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail:" required>
+             <br>
+             <br>
+            <label for="senha">Senha:</label>
+            <input  type="number" id="senha" name="senha" placeholder="Digite sua senha:"  required>
+             <br>
+             <br>
+            <label for="senha">Confirmar senha:</label>
+            <input  type="number" id="confirmar-senha" name="confirmar-senha" placeholder="Digite sua senha:"  required>
+             <br>
+             <br>
+            <label for="born">Data de nacimento</label>
+            <input type="date" id="born" name="born">
+             <br>
+             <br>
+            <label for="cars">Genero:</label>
+             <br>
+            <select style="width: 95%; padding: 10px ;" name="cars" id="cars">
+                <option value="Feminino">Feminino</option>
+                <option value="Masculino">Masculino</option>
+            </select>
+             <br>
+             <br>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" placeholder="Digite sua cidade:">
+             <br>
+             <br>
+            <label for="estado">Cidade:</label>
+            <input type="text" id="estado" name="estado" placeholder="Digite seu Estado:">
+              <br>
+              <br>
+            <label  for="checkbox">Aceito os termos e condições</label>
+            <input  type="checkbox" id="checkbox" name="checkbox">
+             <br>
+             <br>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+        </div>
+    </body>
+</html>

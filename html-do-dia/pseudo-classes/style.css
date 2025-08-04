@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.div {
+  width: 45%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.hover a:hover {
+  color: orange;
+}
+
+.first-child p:first-child {
+  color: red;
+  font-weight: bold;
+}
+
+.first-child em {
+  color: red;
+}
+
+.nth-child p:nth-child(3) {
+  color: blue;
+  font-weight: bold;
+}
+
+.checked input:checked + label {
+  color: orange;
+  font-weight: bold;
+}
+
+.focus input:focus {
+  border: 2px solid gray;
+}
+
+.not p:not(.ignore) {
+  background-color: #556677;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  margin: 5px;
+}
